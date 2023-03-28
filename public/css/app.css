@@ -1,0 +1,107 @@
+.home-container {
+    display: block;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.home-title {
+    color: rgb(90, 166, 126);
+    font-size: 3rem;
+}
+
+.funny {
+    color: rgb(93, 167, 227)
+}
+
+.money {
+    color: rgb(85, 160, 78)
+}
+
+.item-container {
+    margin-top: 15px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+    padding-right: 25px;
+    padding-top: 20px;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgb(90, 166, 126);
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 1.3rem;
+    padding-left: 20px;
+}
+
+.login-form {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: rgb(90, 166, 126);
+    margin-top: 15%;
+}
+
+.hi {
+    color: rgb(90, 166, 126);
+    text-transform: uppercase;
+}
+
+.input {
+    margin-top: 5px;
+}
+
+.profile {
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-right: 20%;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: rgb(90, 166, 126);
+}
+
+.logged-in-home{
+    text-align: center;
+}
+
+.logged-in-home a{
+    text-transform: uppercase;
+    color: rgb(52, 124, 106);
+}
+
+.profile input{
+    margin-top: 5px;
+    margin-bottom: 5px;;
+}
+
+button{
+    border-style: none;
+    border-style: solid;
+    border-color: aquamarine;
+    border-width: 2px;
+    border-radius: 4px;
+    width: 150px;
+    color: white;
+    border-color: white;
+    margin-top: 10px;
+    background-color: rgb(52, 124, 106);
+}
+
+button::hover{
+    cursor: pointer;
+}
